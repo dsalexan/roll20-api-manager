@@ -1,0 +1,29 @@
+{
+  "name": "roll20-api-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "up": "node publisher/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsalexan/roll20-api-manager.git"
+  },
+  "author": "dsalexan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsalexan/roll20-api-manager/issues"
+  },
+  "homepage": "https://github.com/dsalexan/roll20-api-manager#readme",
+  "dependencies": {
+    "chromedriver": "^81.0.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.5",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
